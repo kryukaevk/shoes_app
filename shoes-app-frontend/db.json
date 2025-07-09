@@ -1,0 +1,711 @@
+{
+  "users": [
+    {
+      "id": "001",
+      "login": "oksana",
+      "password": "oksana123",
+      "registered_at": "2025-02-24",
+      "role_id": 0
+    },
+    {
+      "id": "002",
+      "login": "igor",
+      "password": "igor123",
+      "registered_at": "2025-03-08",
+      "role_id": 1
+    },
+    {
+      "login": "elena",
+      "password": "elena123",
+      "registered_at": "2025-04-02 16:15",
+      "role_id": 2,
+      "id": "YEzjCET"
+    },
+    {
+      "login": "egor",
+      "password": "egor123",
+      "registered_at": "2025-05-03 12:23",
+      "role_id": 2,
+      "id": "kMWO3Ko"
+    },
+    {
+      "login": "vadim",
+      "password": "vadim123",
+      "registered_at": "2025-06-04 14:16",
+      "role_id": 2,
+      "id": "YZQ-GMI"
+    }
+  ],
+  "roles": [
+    {
+      "id": 0,
+      "name": "Администратор"
+    },
+    {
+      "id": 1,
+      "name": "Модератор"
+    },
+    {
+      "id": 2,
+      "name": "Покупатель"
+    },
+    {
+      "id": 3,
+      "name": "Гость"
+    }
+  ],
+  "products": [
+    {
+      "id": "001",
+      "title": "Man Black Summer",
+      "image_url": "https://img.kwinto-shoes.ru/img/big/0018168.jpg",
+      "price": 6500,
+      "category_id": "0",
+      "description": "Мужские черные туфли Black Summer — идеальный выбор для летнего сезона, сочетающий стиль и комфорт. Легкая дышащая конструкция обеспечивает прохладу и уверенность в каждом шаге.",
+      "manufacturer": "Индонезия",
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "created_at": "2025-02-24"
+    },
+    {
+      "id": "002",
+      "title": "Woman Red Summer ",
+      "image_url": "https://img.kwinto-shoes.ru/img/big/0017157.jpg",
+      "price": 7000,
+      "category_id": "1",
+      "description": "Женские красные туфли Woman Red Summer — это яркий акцент для летнего гардероба, сочетающий элегантность и удобство. Легкая конструкция и воздухопроницаемые материалы подарят комфорт даже в жаркие дни.",
+      "manufacturer": "Индонезия",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "created_at": "2025-02-24",
+      "season_id": "0"
+    },
+    {
+      "title": "Autumn Black Walk",
+      "image_url": "https://www.sali.am/media/catalog/product/cache/2e8fc5da64c43dac24728bf50b6a5632/2/6/260263_1__5.jpg",
+      "price": 5600,
+      "description": "Прекрасная обувь!",
+      "manufacturer": "Индонезия",
+      "sizes": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "created_at": "2025-04-04 14:25",
+      "id": "fx1HsSU",
+      "category_id": "0",
+      "season_id": "1"
+    },
+    {
+      "title": "Winter High Classic",
+      "image_url": "https://st-cdn.tsum.com/sig/575735990b88379fc478dad456fb26c8/width/434/i/ec/35/97/09/ec359709-be6b-3c82-9230-59cb2d9604e2.jpg",
+      "price": 10500,
+      "description": "Для холодной зимы.",
+      "manufacturer": "Пакистан",
+      "sizes": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "created_at": "2025-04-04 16:15",
+      "id": "oKu9_Db",
+      "category_id": "0",
+      "season_id": "2"
+    },
+    {
+      "title": "Winter High Woman",
+      "image_url": "https://ir.ozone.ru/s3/multimedia-a/c1000/6814726174.jpg",
+      "price": 7900,
+      "category_id": "1",
+      "description": "Для зимы",
+      "manufacturer": "Китай",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "created_at": "2025-04-04 20:00",
+      "id": "8qoKKQq",
+      "season_id": "2"
+    },
+    {
+      "title": "Winter Black Woman",
+      "image_url": "https://respect-shoes.ru/upload/resize_cache/iblock/d5d/300_300_0/tghuu73ui7bv5y3ozxtkqjz63m0vmsrr.JPG",
+      "price": 9500,
+      "category_id": "1",
+      "description": "Очень теплые и удобные",
+      "manufacturer": "Индонезия",
+      "sizes": [
+        "35",
+        "36",
+        "37"
+      ],
+      "created_at": "2025-04-04 20:16",
+      "id": "VOnBH9m",
+      "season_id": "2"
+    },
+    {
+      "title": "Summer Beige Man ",
+      "image_url": "https://images.prom.ua/3198615081_w640_h640_3198615081.jpg",
+      "price": 3500,
+      "category_id": "0",
+      "description": "Бежевые для лета, легкие",
+      "manufacturer": "Индонезия",
+      "sizes": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "created_at": "2025-04-09 15:35",
+      "id": "oj__0p1",
+      "season_id": "0"
+    },
+    {
+      "title": "Summer White Heels",
+      "image_url": "https://img.joomcdn.net/e497d18f7ce1e650787e1385298364731eb1fd13_original.jpeg",
+      "price": 7700,
+      "category_id": "1",
+      "description": "Удобные летние каблуки для важных встреч ",
+      "manufacturer": "Китай",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "created_at": "2025-04-09 15:39",
+      "id": "Mmgk7SC",
+      "season_id": "0"
+    },
+    {
+      "title": "Summer Black Ballet",
+      "image_url": "https://tod-store.ru/wp-content/uploads/2024/02/01-2.jpg",
+      "price": 3500,
+      "category_id": "1",
+      "description": "Для летних прогулок",
+      "manufacturer": "Пакистан",
+      "sizes": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "created_at": "2025-04-09 15:41",
+      "id": "6vZC9yA",
+      "season_id": "0"
+    },
+    {
+      "title": "Autumn High Black",
+      "image_url": "https://ae04.alicdn.com/kf/S7cd6f576616140e3b980eeb352ecae64w.jpg",
+      "price": 13500,
+      "category_id": "0",
+      "description": "Для осенних прогулок",
+      "manufacturer": "Индонезия",
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "created_at": "2025-04-09 15:44",
+      "id": "bOPc4jo",
+      "season_id": "1"
+    },
+    {
+      "title": "Summer Black Woman",
+      "image_url": "https://img.freepik.com/premium-photo/women-s-high-heeled-shoes-isolated-white-background_113913-79.jpg",
+      "price": 7500,
+      "category_id": "1",
+      "season_id": "0",
+      "description": "Черные, элегантные, удобные.",
+      "manufacturer": "Китай",
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "created_at": "2025-04-23 16:51",
+      "id": "ZK84uJg"
+    },
+    {
+      "title": "Summer Black Classic",
+      "image_url": "https://s.alicdn.com/@sc04/kf/He86bb48e233a4cf2974f7749e9683d97H.jpg_720x720q50.jpg",
+      "price": 7900,
+      "category_id": "0",
+      "season_id": "1",
+      "description": "Элегантные, для деловых встреч",
+      "manufacturer": "Италия",
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "created_at": "2025-04-25 15:11",
+      "id": "YMe7fwf"
+    },
+    {
+      "title": "Woman White Step",
+      "image_url": "https://img.kwinto-shoes.ru/img/big/0014700.jpg",
+      "price": 4500,
+      "category_id": "1",
+      "season_id": "0",
+      "description": "Идеальный выбор для стильного и комфортного лета! Эти элегантные белые туфли сочетают в себе современный дизайн и практичность. Изготовлены из высококачественной дышащей кожи или легкого текстиля, обеспечивают отличную вентиляцию в жаркие дни. Гибкая подошва из прочной резины гарантирует устойчивость и комфорт при ходьбе.",
+      "manufacturer": "Италия",
+      "sizes": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "created_at": "2025-06-04 14:23",
+      "id": "Cmym_3d"
+    }
+  ],
+  "categories": [
+    {
+      "id": "0",
+      "name": "Для него"
+    },
+    {
+      "id": "1",
+      "name": "Для неё"
+    }
+  ],
+  "seasons": [
+    {
+      "id": "0",
+      "name": "Лето"
+    },
+    {
+      "id": "1",
+      "name": "Осень"
+    },
+    {
+      "id": "2",
+      "name": "Зима"
+    },
+    {
+      "id": "3",
+      "name": "Деми-сезон"
+    }
+  ],
+  "orders": [
+    {
+      "user_login": "oksana",
+      "recipient": {
+        "name": "Оксана",
+        "surname": "Хлебникова",
+        "phone": "+79059454575",
+        "email": "hey3@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "courier",
+        "address": "г. Москва, ул. Савушкина 8, д. 7",
+        "pickup_point": null
+      },
+      "payment": {
+        "payment_method": "card"
+      },
+      "items": [
+        {
+          "product_id": "fx1HsSU",
+          "title": "Autumn Black Walk",
+          "image_url": "https://www.sali.am/media/catalog/product/cache/2e8fc5da64c43dac24728bf50b6a5632/2/6/260263_1__5.jpg",
+          "size": "43",
+          "quantity": 1,
+          "total_price": 5600
+        },
+        {
+          "product_id": "Mmgk7SC",
+          "title": "Summer White Heels",
+          "image_url": "https://img.joomcdn.net/e497d18f7ce1e650787e1385298364731eb1fd13_original.jpeg",
+          "size": "39",
+          "quantity": 2,
+          "total_price": 15400
+        }
+      ],
+      "total_sum": 21000,
+      "total_quantity": 3,
+      "processed": true,
+      "created_at": "2025-05-14 16:07",
+      "id": 2
+    },
+    {
+      "user_login": "unregistered",
+      "recipient": {
+        "name": "Ярослав",
+        "surname": "Кубриков",
+        "phone": "+79536423476",
+        "email": "hey3@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "courier",
+        "address": "г. Санкт-Петербург, ул. Пушкина 9",
+        "pickup_point": null
+      },
+      "payment": {
+        "payment_method": "cash"
+      },
+      "items": [
+        {
+          "product_id": "oKu9_Db",
+          "title": "Winter High Classic",
+          "image_url": "https://st-cdn.tsum.com/sig/575735990b88379fc478dad456fb26c8/width/434/i/ec/35/97/09/ec359709-be6b-3c82-9230-59cb2d9604e2.jpg",
+          "size": "45",
+          "quantity": 1,
+          "total_price": 10500
+        }
+      ],
+      "total_sum": 10500,
+      "total_quantity": 1,
+      "processed": true,
+      "created_at": "2025-05-30 17:05",
+      "id": 3
+    },
+    {
+      "user_login": "unregistered",
+      "recipient": {
+        "name": "Ярослав",
+        "surname": "Кубриков",
+        "phone": "+79536423476",
+        "email": "hey@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "courier",
+        "address": "г. Москва, ул. Андронова 15, д. 105А",
+        "pickup_point": null
+      },
+      "payment": {
+        "payment_method": "Оплачен"
+      },
+      "items": [
+        {
+          "product_id": "001",
+          "title": "Man Black Summer",
+          "image_url": "https://img.kwinto-shoes.ru/img/big/0018168.jpg",
+          "size": "43",
+          "quantity": 1,
+          "total_price": 7500
+        },
+        {
+          "product_id": "oj__0p1",
+          "title": "Summer Beige Man ",
+          "image_url": "https://images.prom.ua/3198615081_w640_h640_3198615081.jpg",
+          "size": "45",
+          "quantity": 2,
+          "total_price": 7000
+        }
+      ],
+      "total_sum": 14500,
+      "total_quantity": 3,
+      "processed": true,
+      "created_at": "2025-05-30 18:04",
+      "id": 4
+    },
+    {
+      "user_login": "oksana",
+      "recipient": {
+        "name": "Оксана",
+        "surname": "Хлебникова",
+        "phone": "+79536423476",
+        "email": "hey3@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "pickup",
+        "address": null,
+        "pickup_point": "ул. Ленина, 10"
+      },
+      "payment": {
+        "payment_method": "cash"
+      },
+      "items": [
+        {
+          "product_id": "001",
+          "title": "Man Black Summer",
+          "image_url": "https://img.kwinto-shoes.ru/img/big/0018168.jpg",
+          "size": "44",
+          "quantity": 1,
+          "total_price": 7500
+        }
+      ],
+      "total_sum": 7500,
+      "total_quantity": 1,
+      "processed": true,
+      "created_at": "2025-05-30 19:23",
+      "id": 5
+    },
+    {
+      "user_login": "oksana",
+      "recipient": {
+        "name": "Екатерина",
+        "surname": "Рутова",
+        "phone": "+79536423476",
+        "email": "hey3@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "pickup",
+        "address": null,
+        "pickup_point": "г. Москва, пр. Мира, 25"
+      },
+      "payment": {
+        "payment_method": "Оплачен"
+      },
+      "items": [
+        {
+          "product_id": "Mmgk7SC",
+          "title": "Summer White Heels",
+          "image_url": "https://img.joomcdn.net/e497d18f7ce1e650787e1385298364731eb1fd13_original.jpeg",
+          "size": "38",
+          "quantity": 3,
+          "total_price": 23100
+        }
+      ],
+      "total_sum": 23100,
+      "total_quantity": 3,
+      "processed": false,
+      "created_at": "2025-05-31 11:49",
+      "id": 6
+    },
+    {
+      "user_login": "oksana",
+      "recipient": {
+        "name": "Оксана",
+        "surname": "Хлебникова",
+        "phone": "+79536423476",
+        "email": "hey3@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "courier",
+        "address": "г. Москва, ул. Савушкина 8, д. 7",
+        "pickup_point": null
+      },
+      "payment": {
+        "payment_method": "cash"
+      },
+      "items": [
+        {
+          "product_id": "001",
+          "title": "Man Black Summer",
+          "image_url": "https://img.kwinto-shoes.ru/img/big/0018168.jpg",
+          "size": "43",
+          "quantity": 1,
+          "total_price": 7500
+        }
+      ],
+      "total_sum": 7500,
+      "total_quantity": 1,
+      "processed": false,
+      "created_at": "2025-05-31 11:53",
+      "id": 7
+    },
+    {
+      "user_login": "igor",
+      "recipient": {
+        "name": "Игорь",
+        "surname": "Ващенко",
+        "phone": "+79059454575",
+        "email": "mmf@yandex.ru"
+      },
+      "delivery": {
+        "delivery_type": "pickup",
+        "address": null,
+        "pickup_point": "г. Москва, пр. Мира, 25"
+      },
+      "payment": {
+        "payment_method": "Оплачен"
+      },
+      "items": [
+        {
+          "product_id": "001",
+          "title": "Man Black Summer",
+          "image_url": "https://img.kwinto-shoes.ru/img/big/0018168.jpg",
+          "size": "43",
+          "quantity": 1,
+          "total_price": 7500
+        }
+      ],
+      "total_sum": 7500,
+      "total_quantity": 1,
+      "processed": false,
+      "created_at": "2025-06-02 14:58",
+      "id": 8
+    },
+    {
+      "user_login": "unregistered",
+      "recipient": {
+        "name": "Амина",
+        "surname": "Самойлова",
+        "phone": "+79562356598",
+        "email": "samoilova@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "pickup",
+        "address": null,
+        "pickup_point": "г. Санкт-Петербург, ул. Ленина, 10"
+      },
+      "payment": {
+        "payment_method": "Оплачен"
+      },
+      "items": [
+        {
+          "product_id": "Mmgk7SC",
+          "title": "Summer White Heels",
+          "image_url": "https://img.joomcdn.net/e497d18f7ce1e650787e1385298364731eb1fd13_original.jpeg",
+          "size": "37",
+          "quantity": 1,
+          "total_price": 7700
+        }
+      ],
+      "total_sum": 7700,
+      "total_quantity": 1,
+      "processed": true,
+      "created_at": "2025-06-04 13:49",
+      "id": 9
+    },
+    {
+      "user_login": "vadim",
+      "recipient": {
+        "name": "Вадим",
+        "surname": "Рожков",
+        "phone": "+79536423476",
+        "email": "hey@mail.ru"
+      },
+      "delivery": {
+        "delivery_type": "pickup",
+        "address": null,
+        "pickup_point": "г. Санкт-Петербург, ул. Ленина, 10"
+      },
+      "payment": {
+        "payment_method": "Оплачен"
+      },
+      "items": [
+        {
+          "product_id": "oKu9_Db",
+          "title": "Winter High Classic",
+          "image_url": "https://st-cdn.tsum.com/sig/575735990b88379fc478dad456fb26c8/width/434/i/ec/35/97/09/ec359709-be6b-3c82-9230-59cb2d9604e2.jpg",
+          "size": "46",
+          "quantity": 1,
+          "total_price": 10500
+        }
+      ],
+      "total_sum": 10500,
+      "total_quantity": 1,
+      "processed": true,
+      "created_at": "2025-06-04 14:18",
+      "id": 10
+    }
+  ],
+  "cart": [],
+  "comments": [
+    {
+      "author_id": "S0Au7QP",
+      "product_id": "001",
+      "created_at": "2025-03-28 19:19",
+      "content": "Красивые",
+      "id": 4
+    },
+    {
+      "author_id": "001",
+      "product_id": "001",
+      "created_at": "2025-03-28 19:23",
+      "content": "Купила мужу, кайфует!",
+      "id": 6
+    },
+    {
+      "author_id": "001",
+      "product_id": "002",
+      "created_at": "2025-04-02 15:52",
+      "content": "Планирую купить",
+      "id": 7
+    },
+    {
+      "author_id": "YEzjCET",
+      "product_id": "002",
+      "created_at": "2025-04-02 17:36",
+      "content": "Очень красивые!",
+      "id": 8
+    },
+    {
+      "author_id": "YEzjCET",
+      "product_id": "Mmgk7SC",
+      "created_at": "2025-04-16 15:25",
+      "content": "Элегантные!",
+      "id": 9
+    },
+    {
+      "author_id": "002",
+      "product_id": "YMe7fwf",
+      "created_at": "2025-04-25 15:14",
+      "content": "Очень элегантные",
+      "id": 10
+    },
+    {
+      "author_id": "kMWO3Ko",
+      "product_id": "oKu9_Db",
+      "created_at": "2025-05-03 12:24",
+      "content": "Удобные!",
+      "id": 11
+    },
+    {
+      "author_id": "002",
+      "product_id": "Mmgk7SC",
+      "created_at": "2025-06-02 14:36",
+      "content": "Жене нравится",
+      "id": 12
+    },
+    {
+      "author_id": "YZQ-GMI",
+      "product_id": "oKu9_Db",
+      "created_at": "2025-06-04 14:19",
+      "content": "Стильные и не разваливаются",
+      "id": 13
+    }
+  ],
+  "create_order": [
+    {
+      "id": "001",
+      "title": "Получатель"
+    },
+    {
+      "id": "002",
+      "title": "Доставка"
+    },
+    {
+      "id": "003",
+      "title": "Оплата"
+    },
+    {
+      "id": "004",
+      "title": "Подтверждение заказа"
+    }
+  ],
+  "sessions": [],
+  "order_history": []
+}

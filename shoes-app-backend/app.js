@@ -20,6 +20,12 @@ app.set("json spaces", 2);
 
 app.use("/", routes);
 
+app.get("*", (req, res) => {
+  res.sendFile(
+    path.resolve(__dirname, "..", "shoes-app-frontend", "dist", "index.html")
+  );
+});
+
 mongoose
   .connect(process.env.DB_CONNECTION_STRING)
   .then(async () => {

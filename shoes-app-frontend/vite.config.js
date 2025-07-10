@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import eslint from 'vite-plugin-eslint';
 
+// local (backend): http://localhost:3002
+
 // https://vite.dev/config/
 export default defineConfig({
      plugins: [
@@ -20,35 +22,35 @@ export default defineConfig({
      server: {
           proxy: {
                '/auth': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/products': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/categories': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/seasons': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/orders': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/comments': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/order-steps': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
                '/users': {
-                    target: 'http://localhost:3002',
+                    target: 'http://90.156.225.144',
                     changeOrigin: true,
                },
           },

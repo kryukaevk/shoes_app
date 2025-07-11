@@ -1,8 +1,6 @@
 const { default: mongoose } = require("mongoose");
 const mapComment = require("./mapComment");
 
-//http://localhost:3002
-
 module.exports = function (product) {
   const baseUrl = "http://90.156.225.144";
   return {

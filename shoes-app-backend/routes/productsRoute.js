@@ -140,7 +140,7 @@ router.patch(
   hasRole([ROLES.ADMIN, ROLES.MODERATOR]),
   async (req, res) => {
     const form = new IncomingForm({
-      uploadDir: path.join(__dirname, "../Uploads"),
+      uploadDir: path.join(__dirname, "../uploads"),
       keepExtensions: true,
       multiples: true,
     });

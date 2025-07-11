@@ -76,8 +76,9 @@ const DeliveryContainer = ({ className, goToNextStep }) => {
                     <div className="form-group">
                          <label>Тип доставки</label>
                          <div className="radio-group">
-                              <label>
+                              <label className="label-courier">
                                    <input
+                                        className="radio-courier"
                                         type="radio"
                                         name="deliveryType"
                                         value="courier"
@@ -174,6 +175,12 @@ export const Delivery = styled(DeliveryContainer)`
           font-size: 16px;
      }
 
+     .radio-group .label-courier {
+          @media (max-width: 480px) {
+               margin-left: -64px;
+          }
+     }
+
      input,
      select {
           width: 100%;
@@ -187,12 +194,22 @@ export const Delivery = styled(DeliveryContainer)`
           display: flex;
           gap: 20px;
           margin-bottom: 15px;
+
+          @media (max-width: 480px) {
+               flex-direction: column;
+          }
      }
 
      .radio-group label {
           display: flex;
           align-items: center;
           gap: 5px;
+     }
+
+     .radio-courier {
+          @media (max-width: 480px) {
+               margin-left: 38px;
+          }
      }
 
      .error {

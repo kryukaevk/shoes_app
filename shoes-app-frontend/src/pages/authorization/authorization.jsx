@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { Button, Input, AuthErrorMessage } from '../../components';
+import { Button, Input, AuthErrorMessage, Breadcrumbs } from '../../components';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { setUser } from '../../actions';
@@ -89,6 +89,11 @@ const AuthorizationContainer = ({ className }) => {
 
      return (
           <div className={className}>
+               <Breadcrumbs
+                    mainTo="/"
+                    homeText="Главная"
+                    currentPage="Авторизация"
+               />
                <h2>Авторизация</h2>
                <form onSubmit={handleSubmit(onSubmit)}>
                     <Input
@@ -140,7 +145,7 @@ export const Authorization = styled(AuthorizationContainer)`
 
           @media (max-width: 480px) {
                font-size: 20px;
-               margin-top: 30px;
+               margin-top: 55px;
           }
      }
 

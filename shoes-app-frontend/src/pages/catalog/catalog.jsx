@@ -36,7 +36,7 @@ const SearchMainStyled = styled(SearchMobile)`
      }
 
      @media (max-width: 480px) {
-          left: 110px;
+          left: 70px;
      }
 `;
 

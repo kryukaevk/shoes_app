@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { Button, Input, AuthErrorMessage } from '../../components';
+import { Button, Input, AuthErrorMessage, Breadcrumbs } from '../../components';
 import { useNavigate } from 'react-router-dom';
 import { setUser } from '../../actions';
 import { ROLE } from '../../constants';
@@ -88,6 +88,11 @@ const RegistrationContainer = ({ className }) => {
 
      return (
           <div className={className}>
+               <Breadcrumbs
+                    mainTo="/"
+                    homeText="Главная"
+                    currentPage="Регистрация"
+               />
                <h2>Регистрация</h2>
                <form onSubmit={handleSubmit(onSubmit)}>
                     <Input
@@ -145,7 +150,7 @@ export const Registration = styled(RegistrationContainer)`
 
           @media (max-width: 480px) {
                font-size: 20px;
-               margin-top: 30px;
+               margin-top: 55px;
           }
      }
 

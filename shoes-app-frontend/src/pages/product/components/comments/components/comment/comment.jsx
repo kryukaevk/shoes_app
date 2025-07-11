@@ -130,6 +130,7 @@ export const Comment = styled(CommentContainer)`
           padding: 6px;
           max-width: 100%;
           margin: 6px 0;
+          width: 475px;
 
           .comment-content {
                font-size: 13px;
@@ -151,8 +152,9 @@ export const Comment = styled(CommentContainer)`
           }
 
           .trash-icon {
-               top: 6px;
-               right: 6px;
+               position: absolute;
+               top: 8px;
+               right: -25px;
           }
 
           .trash-icon svg {
@@ -164,6 +166,7 @@ export const Comment = styled(CommentContainer)`
      @media (max-width: 480px) {
           padding: 5px;
           margin: 5px 0;
+          width: 350px;
 
           .comment-content {
                font-size: 12px;
@@ -182,6 +185,12 @@ export const Comment = styled(CommentContainer)`
           .comment-date svg {
                width: 13px;
                height: 13px;
+          }
+
+          .trash-icon {
+               position: absolute;
+               top: 8px;
+               right: -25px;
           }
 
           .trash-icon svg {

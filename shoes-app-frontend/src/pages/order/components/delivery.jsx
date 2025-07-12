@@ -195,8 +195,16 @@ export const Delivery = styled(DeliveryContainer)`
           gap: 20px;
           margin-bottom: 15px;
 
+          @media (max-width: 770px) {
+               display: grid;
+               grid-template-columns: 68px 15px;
+               margin-left: -5px;
+          }
+
           @media (max-width: 480px) {
-               flex-direction: column;
+               display: grid;
+               grid-template-columns: 48px 15px;
+               margin-left: 28px;
           }
      }
 

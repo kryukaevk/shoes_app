@@ -48,13 +48,11 @@ export const Pagination = styled(PaginationContainer)`
           font-size: 16px;
      }
 
-     /* Стили для кнопок (предполагается, что компонент Button поддерживает кастомизацию) */
      button {
           padding: 8px 16px;
           font-size: 14px;
      }
 
-     /* Медиа-запрос для мобильных устройств (ширина экрана до 768px) */
      @media (max-width: 768px) {
           gap: 8px;
           bottom: 10px;
@@ -68,7 +66,6 @@ export const Pagination = styled(PaginationContainer)`
                font-size: 12px;
           }
 
-          /* Показываем только мобильный текст на маленьких экранах */
           .desktop-text {
                display: none;
           }
@@ -77,7 +74,6 @@ export const Pagination = styled(PaginationContainer)`
           }
      }
 
-     /* Стили для десктопов */
      @media (min-width: 769px) {
           .desktop-text {
                display: inline;
